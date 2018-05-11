@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl01"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_below="@+id/textView">
+
+    <TextView
+        android:id="@+id/titleview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+
+        android:text="hello"
+        android:textColor="#255a95"
+        android:textSize="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:background="@drawable/circle_button"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
